@@ -1,16 +1,9 @@
-import React, { useRef } from 'react'
+import React from 'react'
 
 function FileMaintenance() {
-  const myInputRef = useRef(null);
 
-  const focusInput = () => {
-    myInputRef.current.focus();
-  }
   return (
-    <>
-      <input type='text' ref={myInputRef}/>
-      <button onClick={focusInput}>Focus Input</button>
-    </>
+    <h1>File Maintenance</h1>
   )
 }
 
