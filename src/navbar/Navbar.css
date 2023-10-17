@@ -1,0 +1,6 @@
+.navbarContent{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: end !important;
+    height: 80px;
+}
